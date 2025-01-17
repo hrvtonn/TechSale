@@ -83,7 +83,7 @@ Techsale
 Se você estiver usando **Git**, pode clonar este repositório com:
 
 ```bash
-git clone https://github.com/hrvtonn/Techsale.git
+git clone https://github.com/hrvtonn/TechSale.git
 ```
 
 Ou baixe o ZIP diretamente e extraia para uma pasta de sua preferência.
