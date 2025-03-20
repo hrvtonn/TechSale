@@ -1,6 +1,5 @@
 package com.techsale;
 
-import com.techsale.database.DatabaseManager;
 import com.techsale.model.*;
 import com.techsale.model.Pedido.ItemPedido;
 import com.techsale.service.*;
@@ -16,7 +15,7 @@ public class Main {
     private static final FuncionarioService funcionarioService = new FuncionarioService();
 
     public static void main(String[] args) {
-        DatabaseManager.getConnection(); // inicializa DB e tabelas
+        com.techsale.database.DatabaseManager.getConnection(); // inicializa DB e tabelas
 
         while (true) {
             System.out.println("\n=== Techsale: PDV de Eletronicos ===");
